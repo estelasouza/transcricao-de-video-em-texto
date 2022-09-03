@@ -20,7 +20,7 @@ audio = AudioSegment.from_file("audio.mp3", "mp3")
 
 size = 180000 # o milisegundo para cortar o audio no maximo 3 min
 
-chunks = make_chunks(audio, size) # Corte o arquivo em pedaços de 10s
+chunks = make_chunks(audio, size) # Corte o arquivo em pedaços
 
 for i, chunk in enumerate(chunks):
    # Enumeration, i is the index, chunk is the cut file
