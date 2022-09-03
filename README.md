@@ -11,7 +11,7 @@ Só que esses dias decidi aprender a fazer isso com Python! E deu super certo, a
 Por isso, decidi compartilhar aqui ! Então vamos de passo a passo para criação desse script !
 
 Instale as libs : SpeechRecognition, moviepy, pydub
-pip install SpeechRecognition `
+pip install SpeechRecognition
 pip install moviepy
 pip install pydub
 obs. caso você esteja rodando na sua maquina, pode dar erro e você precise instalar esse pacote ffmpef, basta instalar:
